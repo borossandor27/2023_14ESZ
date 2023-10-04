@@ -22,6 +22,7 @@ namespace Osztalyok
             sikidoms.Add(new Haromszog(4, 4, 4));
             sikidoms.Add(new Haromszog(5, 5, 3));
             sikidoms.Add(new Haromszog(2, 3, 4));
+            sikidoms.Add(new Haromszog(5, 3, 4));
 
             foreach (Sikidom item in sikidoms)
             {
@@ -33,7 +34,7 @@ namespace Osztalyok
                 Console.WriteLine($"A {item.tipus} kerülete: {item.Kerulet()}, területe: {item.Terulet()}");
 
             }
-
+            Console.WriteLine("\nProgram vége...");
             Console.ReadLine();
 
         }
